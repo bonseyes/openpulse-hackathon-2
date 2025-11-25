@@ -1,4 +1,4 @@
-# openpulse-hackathon-2 : Reproducable AI
+# Reproducable AI
 
 The goal of this projecct is that given a code repository with associated paper related to ML/AI artifacts (dataset, algrotihm, model, etc) to assess it's reproducability. Reproducability is measured by:
 - Classifying the paper fulltext and a summary of the github code repository as markdown into a defined ML Reproducability Class (I/II/III) using OpenAI

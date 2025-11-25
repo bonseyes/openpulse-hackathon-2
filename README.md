@@ -1,6 +1,6 @@
-# openpulse-hackathon-2 : reproducable AI
+# openpulse-hackathon-2 : Reproducable AI
 
-The goal of this projecct is given a code repository with associated paper related to ML/AI artifacts (dataset, algrotihm, model, etc) to assess it's reproducability.
+The goal of this projecct is that given a code repository with associated paper related to ML/AI artifacts (dataset, algrotihm, model, etc) to assess it's reproducability.
 
 ## Input
 - Git repository identifier

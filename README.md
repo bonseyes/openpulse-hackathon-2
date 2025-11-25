@@ -74,9 +74,9 @@ The following sample illustrates the structure expected from the CLI. Values are
 }
 ```
 
-## API / Database Queries
-- OpenAlex API
-- OpenPulse API
-- GitHub API
-- OpenAI API
-- Hugging Face API
+## API / Database Documentation
+- OpenAlex API (https://docs.openalex.org/)
+- OpenPulse EPFL API (https://github.com/sdsc-ordes/open-pulse-quickstart)
+- GitHub API (https://docs.github.com/en/rest?apiVersion=2022-11-28)
+- OpenAI API (https://platform.openai.com/docs/quickstart)
+- Hugging Face API (https://huggingface.co/docs/inference-providers/en/tasks/index)

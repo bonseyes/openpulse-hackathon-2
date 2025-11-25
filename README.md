@@ -14,7 +14,7 @@ The goal of this projecct is that given a code repository with associated paper 
 
 ## Output
 - ML Reproducability Class (I/II/III) -> Label
-- ML Reproducability Realworld Evidence (RWE) -> Polar Chart of Dimensions -> Score (0 to 1)
+- ML Reproducability Realworld Evidence (RWE) -> Various Dimensions -> Score (0 to 1)
 - ML Reproducability Report
 
 Format:

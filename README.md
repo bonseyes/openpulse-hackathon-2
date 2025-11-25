@@ -7,9 +7,9 @@ The goal of this projecct is given a code repository with associated paper relat
 - Paper identifier (openalex)
 
 ## Output
-- Reproducability Class (I/II/III)
-- Reproducability Realworld Evidence (RWE)
-- Reproducability Report
+- ML Reproducability Class (I/II/III)
+- ML Reproducability Realworld Evidence (RWE)
+- ML Reproducability Report
 
 Format:
 - JSON / API / HTML

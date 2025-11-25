@@ -6,9 +6,15 @@ The goal of this projecct is that given a code repository with associated paper 
 - Git repository identifier
 - Paper identifier (openalex)
 
+## Intermediate Results
+- Paper full text as markdown
+- Github contents summary as markdown
+- Huggingface dataset_id
+- Huggingface model_id
+
 ## Output
-- ML Reproducability Class (I/II/III)
-- ML Reproducability Realworld Evidence (RWE)
+- ML Reproducability Class (I/II/III) -> Label
+- ML Reproducability Realworld Evidence (RWE) -> Polar Chart of Dimensions
 - ML Reproducability Report
 
 Format:

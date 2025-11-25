@@ -1,30 +1,30 @@
 # openpulse-hackathon-2 : Reproducable AI
 
-The goal of this projecct is that given a code repository with associated paper related to ML/AI artifacts (dataset, algrotihm, model, etc) to assess it's reproducability.
+The goal of this projecct is that given a code repository with associated paper related to ML/AI artifacts (dataset, algrotihm, model, etc) to assess it's reproducability. Reproducability is measured by:
+- Classifying the paper fulltext and a summary of the github code repository as markdown into a defined ML Reproducability Class (I/II/III) using OpenAI
+- Collecting observations of ML Reproducability Realworld Evidence (RWE) and produce a score (0 to 1) from multiple dimensions including usage statistics from HuggingFace, Github, and Open Pulse open source insights on AI artificants identified in the paper and code repositories.
 
-## Input
-- Git repository identifier
-- Paper identifier (openalex)
+An JSON and HTML ML Reproducability Report is produced as output.
 
-## Intermediate Results
-- Paper full text as markdown
-- Github contents summary as markdown
-- Huggingface dataset_id
-- Huggingface model_id
+## Getting Started
 
-## Output
-- ML Reproducability Class (I/II/III)
-- ML Reproducability Class
-- -> Label
-- ML Reproducability Realworld Evidence (RWE) -> Various Dimensions -> Score (0 to 1)
-- ML Reproducability Report
+Main script will fetch JSON information from paperid from openalex.org and fetch git repository statistics from github and output JSON
 
-Format:
-- JSON / API / HTML
+paper_id - Paper identifier from openalex (https://openalex.org/W4390875033)
+github_id - Git repository identifier (https://github.com/M-3LAB/awesome-industrial-anomaly-detection)
+```
+PYTHONPATH=src python3 -m reproai.main run --paper_id https://openalex.org/W4390875033 --github_id https://github.com/M-3LAB/awesome-industrial-anomaly-detection
+```
+
+## JSON Output
+TODO
+```
+TODO
+```
 
 ## API / Database Querires
 - OpenAlex API
 - OpenPulse API
 - Github API
-- OpenAPI/Google API
+- OpenAPI API
 - HuggingFace API

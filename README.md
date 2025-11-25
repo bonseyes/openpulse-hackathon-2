@@ -14,8 +14,9 @@ The goal of this projecct is that given a code repository with associated paper 
 Format:
 - JSON / API / HTML
 
-## Database Querires
+## API / Database Querires
 - OpenAlex API
 - OpenPulse API
 - Github API
+- OpenAPI/Google API
 - HuggingFace API
